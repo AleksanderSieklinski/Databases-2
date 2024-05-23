@@ -17,6 +17,9 @@ USE testCLR;
 
 GO
 
+DROP FUNCTION IF EXISTS dbo.FindEmployeesByAddressTVF;
+DROP FUNCTION IF EXISTS dbo.FormatDate;
+DROP FUNCTION IF EXISTS dbo.ContainsString;
 DROP FUNCTION IF EXISTS dbo.GetSystemTime;
 DROP FUNCTION IF EXISTS dbo.GreetUser;
 
